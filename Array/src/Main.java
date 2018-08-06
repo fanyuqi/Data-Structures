@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-
+//测试git
 	// write your code here
 //        int arr[] = new int[20];
 //        int scores[] = new int[]{99,98,97,59,100};
