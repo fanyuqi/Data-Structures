@@ -5,8 +5,7 @@
 //       2.若它的右子树不为空，则右子树上所有结点的值均大于根结点的值；
 //
 //       3.它的左右子树均为二分查找树。
-import java.util.Collection;
-import java.util.Iterator;
+
 import java.util.Stack;
 import java.util.Queue;
 import java.util.LinkedList;
