@@ -53,7 +53,8 @@ public class BST<E extends Comparable<E>> {//二分搜索树存储的节点必�
         }
         if (e.compareTo(node.e) < 0) {
             node.left = add(node.left, e);
-        } else { //e.compareTo(node.e) > 0
+        }
+        if (e.compareTo(node.e) > 0) {
             node.right = add(node.right, e);
         }
         return node;
