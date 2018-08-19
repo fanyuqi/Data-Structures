@@ -180,6 +180,7 @@ public class LinkedList<E> {
             if (cur.e.equals(e)){
                 return true;
             }
+            cur = cur.next;
         }
         return false;
     }
